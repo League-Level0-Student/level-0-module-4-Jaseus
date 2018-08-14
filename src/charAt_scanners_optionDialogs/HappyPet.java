@@ -11,7 +11,9 @@ public class HappyPet {
 		
 		int pet = JOptionPane.showOptionDialog(null, "Which pet would you like to have?", "Pet", 0, JOptionPane.INFORMATION_MESSAGE, null,
 				new String[] { "Cat", "Dog", "Hamster" }, null);
-	
+		if(pet == 0) {
+			
+		}
 		int happinessLevel = 0;
 		
 			int task = JOptionPane.showOptionDialog(null, "What would you like to do with your new " + pet, "Task", 0, JOptionPane.INFORMATION_MESSAGE, null,
